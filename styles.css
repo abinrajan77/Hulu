@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background: #000;
+  color: #fff;
+  line-height: 1.7;
+  overflow-x: hidden;
+
+}
+
+a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #ccc;
+}
+
+img {
+    width: 100%;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    z-index: 2;
+    position: relative;
+}
+
+h4{
+    color: rgb(21,232,132);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn{
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    min-width: 135px;
+    padding: 20px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 14px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-1:hover{
+    opacity: 0.8;
+  }
+  
+
+.btn-login{
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-login:hover{
+    color: #ccc;
+}
+
+.legal-text{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.text-1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.text-2{
+    max-width: 850px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.text-3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+
+.header{
+    height: 550px;
+    background: url(https://www.hulu.com/static/hitch/s3/attachments/ckzoylttk003x1v6mcd4p0gk2-ckxgnvin29r771v5fyutjbf5c-bundle-6400x2640-desktop-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    width: 50%;
+    margin: 20px 0;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-text-1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header-text-2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+/* Categories */
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 90px 40px;
+}
+
+.covers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.covers > div {
+
+    height: 450px;
+    width: 300px;
+    position: relative;
+}
+
+.cover-text{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.cover-1{
+    background: url('images/cover-1.jpg');
+}
+
+.cover-2{
+    background: url('images/cover-2.jpg');
+}
+
+.cover-3{
+    background: url('images/cover-3.jpg');
+}
+
+.cover-4{
+    background: url('images/cover-4.jpg');
+}
+
+.Billboard{
+    background: #151516;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.channel{
+    margin-top: 20px;
+}
+
+.arrow {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+  }
+  
+  .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+  
+  .dwn-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px
+  }
+
+
+.sports{
+    background: url('images/live-sports.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+.sports-content{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    max-width: 550px;
+}
+
+.sports-logo{
+    width: 300px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sports-logo > div{
+    background: url('images/network-logo-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports-logo img{
+    width: 40px;
+}
+
+/* Footer */
+.footer {
+    background: #ebedf2;
+    color: #333;
+    
+  }
+  
+  .footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    
+  }
+  
+  .footer-lists {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .list-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+  }
+  
+  .divider {
+    width: 100%;
+    height: 3px;
+    border-top: 1px #ccc solid;
+    margin: 30px 0;
+  }
+  
+  .social-icons img {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+  }
